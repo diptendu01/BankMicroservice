@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to DBank cards related QA APIs "
+  contactDetails:
+    name: "Cherry Pankaj - QA Lead"
+    email: "cherryl@dbank.com"
+  onCallSupport:
+    - "(310) 695-7548"
+    - "(201) 786-6712"

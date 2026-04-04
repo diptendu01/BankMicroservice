@@ -1,0 +1,11 @@
+build:
+ version: "3.0"
+
+accounts:
+  message: "Hello! Welcome to DBank accounts related local APIs. "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@DBank.com"
+  onCallSupport:
+    - "(555) 987-6541"
+    - "(555) 785-9863"

@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to DBank accounts related PROD APIs "
+  contactDetails:
+    name: "S. Nandi - Product Owner"
+    email: "nandi@DBank.com"
+  onCallSupport:
+    - "(554) 987-4578"
+    - "(554) 785-3654"

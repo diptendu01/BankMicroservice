@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to DBank cards related prod APIs "
+  contactDetails:
+    name: "Sandra Harald - Product Owner"
+    email: "sandra@dbank.com"
+  onCallSupport:
+    - "(617) 432-6524"
+    - "(936) 564-9457"

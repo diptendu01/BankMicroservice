@@ -1,0 +1,8 @@
+cards:
+  message: "Welcome to DBank cards related local APIs "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@DBank.com"
+  onCallSupport:
+    - "(555) 987-4541"
+    - "(555) 785-9763"

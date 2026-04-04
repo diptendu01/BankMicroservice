@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to DBank accounts related QA APIs. "
+  contactDetails:
+    name: "smith k. - QA Lead"
+    email: "smith@DBank.com"
+  onCallSupport:
+    - "(554) 987-6541"
+    - "(554) 785-9863"

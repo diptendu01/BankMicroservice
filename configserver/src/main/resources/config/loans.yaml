@@ -1,0 +1,8 @@
+loans:
+  message: "Hello! Welcome to DBank loans related local APIs.  "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@DBank.com"
+  onCallSupport:
+    - "(555) 987-4541"
+    - "(555) 785-9763"
