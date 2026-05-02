@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(path = "/api", produces = { MediaType.APPLICATION_JSON_VALUE })
 @Validated
-public class AccountController {
+public class  AccountController {
         private final IAccountsService iAccountsService;
         private final AccountsContactInfoDto accountsContactInfoDto;
         private final Environment environment;

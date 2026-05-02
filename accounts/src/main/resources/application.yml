@@ -20,20 +20,30 @@ spring:
     show-sql: true
   config:
     import: "optional:configserver:http://localhost:8071/"
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
   endpoint:
     shutdown:
       access: unrestricted
+    health:
+      probes:
+        enabled: true
   info:
     env:
       enabled: true
-endpoint :
-  shutdown:
-    enabled: true
 eureka:
   instance:
     preferIpAddress: true
@@ -48,3 +58,17 @@ info:
     name: "accounts"
     description: "DBank Accounts Application"
     version: "2.0.0"
+
+logging:
+  level:
+    com:
+      diptendu:
+        accounts: DEBUG
+
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 2
+      failureRateThreshold: 50
+      waitDurationInOpenState: 10000
